@@ -12,6 +12,7 @@
 .cxx
 *.keystore
 !debug.keystore
+!mobile/android/app/debug.keystore
 
 # ========================
 # iOS
@@ -42,6 +43,11 @@ build/
 .pytest_cache/
 .coverage
 htmlcov/
+
+# SQLite databases
+*.db
+*.db-shm
+*.db-wal
 
 # ========================
 # Node.js
